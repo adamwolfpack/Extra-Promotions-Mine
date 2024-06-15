@@ -18,23 +18,29 @@
      "uniques": ["Can see over obstacles","Only available <after discovering [Radar]>"],
      "unitTypes": ["Ranged Water","Melee Water","Aircraft Carrier"]
   },
+  {
+     "name": "Radar II",
+     "prerequisites": ["Radar I"],
+     "uniques": ["[+2] Sight"],
+     "unitTypes": ["Ranged Water","Melee Water","Aircraft Carrier"]
+  },
 //Extra stuff for Scouts
   {
      "name": "Infiltrater I",
      "prerequisites": ["Scouting III"],
-     "uniques": ["Can pass through impassable tiles"],
+     "uniques": ["Can pass through impassable tiles","[+2] movement"],
      "unitTypes": ["Scout"]
   },
   {
      "name": "Infiltrater II",
      "prerequisites": ["Infiltrater I"],
-     "uniques": ["May enter foreign tiles without open borders"],
+     "uniques": ["May enter foreign tiles without open borders","[+3] Movement"],
      "unitTypes": ["Scout"]
   },
   {
      "name": "Infiltrater III",
      "prerequisites": ["Infiltrater I"],
-     "uniques": ["Unable to capture cities","Invisible to others"],
+     "uniques": ["Unable to capture cities","Invisible to others","[+2] additional attacks per turn"],
      "unitTypes": ["Scout"]
   },
 //Move faster in your own territory, and then in foreign territory
